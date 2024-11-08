@@ -1,24 +1,34 @@
-# README
+# ActiveMarkdown blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a demo blog for the Active Markdown Rails engine.
 
-Things you may want to cover:
+[Active Markdown](https://github.com/indikaimk/activemarkdown) is a visual Markdown editor for Rails. 
 
-* Ruby version
+Active Markdown is still experimental but you can try it as below.
 
-* System dependencies
+### #1 Download the demo blog
 
-* Configuration
 
-* Database creation
+```shell
+$ git clone https://github.com/indikaimk/activemarkdown_blog.git
+```
 
-* Database initialization
+### #2 Download the Active Markdown Rails engin
 
-* How to run the test suite
+Download Active Markdown to the same working directory as the `activemarkdown_blog`
 
-* Services (job queues, cache servers, search engines, etc.)
+```shell
+$ git clone https://github.com/indikaimk/activemarkdown.git
+```
 
-* Deployment instructions
+### #3 Run the migrations
 
-* ...
+```shell
+$ bin/rails db:migrate
+```
+
+### #4 Write with Active Markdown
+
+Go to `http://127.0.0.1` and click on `New article' and start writing.
+
+
