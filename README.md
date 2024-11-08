@@ -20,6 +20,7 @@ $ bin/rails db:migrate
 ```
 
 4 Write with Active Markdown
-Go to `http://127.0.0.1` and click on `New article' and start writing.
+
+Go to `http://127.0.0.1` and click on `New article' to start writing.
 
 
